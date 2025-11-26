@@ -36,6 +36,8 @@ const App = () => {
   const onClose = () => {
     if (location.pathname === '/order') {
       navigate('/');
+    } else if (location.pathname.includes('/profile/orders')) {
+      navigate('/profile/orders');
     } else {
       navigate(-1);
     }
