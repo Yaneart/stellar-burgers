@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "order": {
+    "_id": "order123",
+    "status": "done",
+    "name": "Галактический бургер",
+    "createdAt": "2024-01-01T12:00:00.000Z",
+    "updatedAt": "2024-01-01T12:00:00.000Z",
+    "number": 987654,
+    "ingredients": ["bun123", "sauce456", "main789"]
+  }
+}
